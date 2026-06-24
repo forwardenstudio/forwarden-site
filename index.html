@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0a0a0b" />
+  <meta name="description" content="FORWARDEN — digital craftsmanship. Building games and digital experiences through Forwarden Studio and Forwarden Solutions." />
+  <title>FORWARDEN — Digital Craftsmanship</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Geometric ambient background -->
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <a href="#hero" class="nav__brand" aria-label="Forwarden home">
+        <svg class="mark"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 900 900">
+
+        <g transform="translate(-25.866 61.121)
+                        translate(-752.125 -649.333)
+                        scale(3.06167)">
+
+            <path d="m499.74 258.12-100.444-58-.009 123.992 50.226 28.998v7.995l-50.226-29.225-.141 57.914L499.74 448.1V324.113l-50.227-28.999v-7.997l50.227 28.999z"/>
+
+            <path d="m293.45 258.12 100.445-58 .009 123.992-50.226 28.998v7.995l50.226-29.225.141 57.914L293.451 448.1V324.113l50.227-28.999v-7.997l-50.227 28.999z"/>
+
+        </g>
+        </svg>
+      <span class="nav__name">FORWARDEN</span>
+    </a>
+
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#philosophy" data-i18n="nav_philosophy">Philosophy</a>
+      <a href="#projects" data-i18n="nav_projects">Projects</a>
+      <a href="#devlog" data-i18n="nav_devlog">Devlog</a>
+      <a href="#contact" data-i18n="nav_contact">Contact</a>
+    </nav>
+
+    <div class="nav__controls">
+      <button class="ctrl" id="langToggle" aria-label="Toggle language">
+        <span id="langLabel">EN</span>
+      </button>
+      <button class="ctrl ctrl--icon" id="themeToggle" aria-label="Toggle theme">
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- SECTION 1 — HERO -->
+    <section class="hero" id="hero">
+      <div class="hero__logo reveal" aria-hidden="true">
+        <svg class="mark mark--lg"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 900 900">
+
+        <g transform="translate(-25.866 61.121)
+                        translate(-752.125 -649.333)
+                        scale(3.06167)">
+
+            <path d="m499.74 258.12-100.444-58-.009 123.992 50.226 28.998v7.995l-50.226-29.225-.141 57.914L499.74 448.1V324.113l-50.227-28.999v-7.997l50.227 28.999z"/>
+
+            <path d="m293.45 258.12 100.445-58 .009 123.992-50.226 28.998v7.995l50.226-29.225.141 57.914L293.451 448.1V324.113l50.227-28.999v-7.997l-50.227 28.999z"/>
+
+        </g>
+        </svg>
+      </div>
+      <h1 class="hero__title reveal" data-i18n="hero_title">FORWARDEN</h1>
+      <p class="hero__subtitle reveal" data-i18n="hero_subtitle">Building games and digital experiences.</p>
+      <p class="hero__cta-label reveal" data-i18n="hero_choose">Choose a path</p>
+
+      <div class="paths">
+        <a href="#projects" class="path path--studio reveal" data-branch="studio">
+          <div class="path__visual" aria-hidden="true">
+            <span class="orb orb--1"></span>
+            <span class="orb orb--2"></span>
+            <span class="orb orb--3"></span>
+          </div>
+          <div class="path__body">
+            <span class="path__tag" data-i18n="path_studio_tag">Forwarden Studio</span>
+            <h2 class="path__name">Studio</h2>
+            <p class="path__desc" data-i18n="path_studio_desc">Game development crafted with feeling and motion.</p>
+            <span class="path__arrow" aria-hidden="true">→</span>
+          </div>
+        </a>
+
+        <a href="#projects" class="path path--solutions reveal" data-branch="solutions">
+          <div class="path__visual path__visual--grid" aria-hidden="true">
+            <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+          </div>
+          <div class="path__body">
+            <span class="path__tag" data-i18n="path_solutions_tag">Forwarden Solutions</span>
+            <h2 class="path__name">Solutions</h2>
+            <p class="path__desc" data-i18n="path_solutions_desc">Software and digital platforms built to scale.</p>
+            <span class="path__arrow" aria-hidden="true">→</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- SECTION 2 — PHILOSOPHY -->
+    <section class="philosophy" id="philosophy">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="phil_eyebrow">Shared Philosophy</span>
+        <h2 class="section-title" data-i18n="phil_title">One core. Two expressions.</h2>
+      </div>
+      <div class="philosophy__grid">
+        <p class="philosophy__lead reveal" data-i18n="phil_lead">
+          Forwarden builds digital experiences through software and games. Studio and Solutions
+          are two branches of a single discipline — the craft of turning ideas into things people
+          feel, use, and remember.
+        </p>
+        <div class="pillars">
+          <article class="pillar reveal">
+            <span class="pillar__glyph" aria-hidden="true"><span class="g-tri"></span></span>
+            <h3 data-i18n="phil_p1_t">Craft</h3>
+            <p data-i18n="phil_p1_d">Every pixel and every line of code is intentional.</p>
+          </article>
+          <article class="pillar reveal">
+            <span class="pillar__glyph" aria-hidden="true"><span class="g-square"></span></span>
+            <h3 data-i18n="phil_p2_t">Structure</h3>
+            <p data-i18n="phil_p2_d">Systems that stay clear as they scale.</p>
+          </article>
+          <article class="pillar reveal">
+            <span class="pillar__glyph" aria-hidden="true"><span class="g-circle"></span></span>
+            <h3 data-i18n="phil_p3_t">Motion</h3>
+            <p data-i18n="phil_p3_d">Interfaces that move with purpose and grace.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3 — FEATURED PROJECTS -->
+    <section class="projects" id="projects">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="proj_eyebrow">Featured Projects</span>
+        <h2 class="section-title" data-i18n="proj_title">Work from both branches.</h2>
+      </div>
+      <div class="projects__grid">
+        <article class="card reveal" data-branch="studio">
+          <div class="card__art card__art--studio" aria-hidden="true">
+            <span class="orb orb--1"></span>
+            <span class="orb orb--2"></span>
+          </div>
+          <div class="card__meta">
+            <span class="card__branch" data-i18n="card_studio">Studio · Game</span>
+            <h3 class="card__title">Ascenture</h3>
+            <p class="card__desc" data-i18n="proj1_desc">An atmospheric narrative experience exploring light and absence.</p>
+          </div>
+        </article>
+
+        <article class="card reveal" data-branch="solutions">
+          <div class="card__art card__art--solutions" aria-hidden="true">
+            <span class="bar"></span><span class="bar"></span><span class="bar"></span><span class="bar"></span>
+          </div>
+          <div class="card__meta">
+            <span class="card__branch" data-i18n="card_solutions">Solutions · Platform</span>
+            <h3 class="card__title" data-i18n="proj2_title">Software Project</h3>
+            <p class="card__desc" data-i18n="proj2_desc">A digital platform engineered for clarity and scale.</p>
+          </div>
+        </article>
+
+        <article class="card card--ghost reveal">
+          <div class="card__art card__art--ghost" aria-hidden="true">
+            <span class="plus">+</span>
+          </div>
+          <div class="card__meta">
+            <span class="card__branch" data-i18n="card_soon">In development</span>
+            <h3 class="card__title" data-i18n="proj3_title">Future Project</h3>
+            <p class="card__desc" data-i18n="proj3_desc">Something new is taking shape. Stay tuned.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SECTION 4 — DEVELOPMENT LOG -->
+    <section class="devlog" id="devlog">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="dev_eyebrow">Development Log</span>
+        <h2 class="section-title" data-i18n="dev_title">Built in the open.</h2>
+      </div>
+      <ol class="timeline">
+        <li class="timeline__item reveal">
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <span class="timeline__date">2022-05</span>
+          <div class="timeline__content">
+            <h3 data-i18n="log1_t">Where Angels Starve — vertical slice</h3>
+            <p data-i18n="log1_d">First playable chapter with full lighting and audio pass.</p>
+          </div>
+        </li>
+        <li class="timeline__item reveal">
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <span class="timeline__date">2025-07</span>
+          <div class="timeline__content">
+            <h3 data-i18n="log2_t">Solutions platform — core architecture</h3>
+            <p data-i18n="log2_d">Shipped the modular foundation powering future products.</p>
+          </div>
+        </li>
+        <li class="timeline__item reveal">
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <span class="timeline__date">2026-05</span>
+          <div class="timeline__content">
+            <h3 data-i18n="log3_t">Forwarden identity system</h3>
+            <p data-i18n="log3_d">Unified the visual language shared across Studio and Solutions.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- SECTION 5 — SOCIALS -->
+    <section class="socials" id="socials">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="soc_eyebrow">Follow the journey</span>
+        <h2 class="section-title" data-i18n="soc_title">Find us everywhere.</h2>
+      </div>
+      <div class="socials__grid">
+        <a class="social reveal" href="https://github.com/forwardenstudio" aria-label="GitHub">GitHub</a>
+        <a class="social reveal" href="https://www.youtube.com/@forwardenstudio" aria-label="YouTube">YouTube</a>
+        <a class="social reveal" href="https://www.instagram.com/forwardenstudio" aria-label="Instagram">Instagram</a>
+        <a class="social reveal" href="https://x.com/forwardenstudio" aria-label="X">X</a>
+        <a class="social reveal" href="https://www.tiktok.com/@forwardenstudio" aria-label="TikTok">TikTok</a>
+      </div>
+    </section>
+
+    <!-- SECTION 6 — CONTACT -->
+    <section class="contact" id="contact">
+      <div class="contact__inner reveal">
+        <h2 class="contact__title" data-i18n="contact_title">Let&apos;s build something forward.</h2>
+        <p class="contact__desc" data-i18n="contact_desc">Have a game, a platform, or an idea worth crafting? We&apos;d love to hear it.</p>
+        <a class="btn" href="mailto:hello@forwarden.studio">
+          <span data-i18n="contact_btn">Get in touch</span>
+          <span aria-hidden="true">→</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__brand">
+      <svg class="mark"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 900 900">
+
+        <g transform="translate(-25.866 61.121)
+                        translate(-752.125 -649.333)
+                        scale(3.06167)">
+
+            <path d="m499.74 258.12-100.444-58-.009 123.992 50.226 28.998v7.995l-50.226-29.225-.141 57.914L499.74 448.1V324.113l-50.227-28.999v-7.997l50.227 28.999z"/>
+
+            <path d="m293.45 258.12 100.445-58 .009 123.992-50.226 28.998v7.995l50.226-29.225.141 57.914L293.451 448.1V324.113l50.227-28.999v-7.997l-50.227 28.999z"/>
+
+        </g>
+        </svg>
+      <span>FORWARDEN</span>
+    </div>
+    <p class="footer__note" data-i18n="footer_note">Digital craftsmanship — Studio & Solutions.</p>
+    <p class="footer__copy">© <span id="year"></span> Forwarden</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

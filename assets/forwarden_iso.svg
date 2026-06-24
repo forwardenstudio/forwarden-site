@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="900"
+   height="900"
+   viewBox="0 0 900 900"
+   version="1.1"
+   xml:space="preserve"
+   id="SVGRoot"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs2"><rect
+     x="247.48737"
+     y="84.852814"
+     width="668.06897"
+     height="221.32442"
+     id="rect2" /></defs>
+  
+ <style
+   type="text/css"
+   id="style1">
+g.prefab path {
+  vector-effect:non-scaling-stroke;
+  -inkscape-stroke:hairline;
+  fill: none;
+  fill-opacity: 1;
+  stroke-opacity: 1;
+  stroke: #00349c;
+}
+ </style>
+ 
+<g
+   id="g4"
+   transform="translate(-25.866256,61.12131)"
+   style="display:inline"><g
+     style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2"
+     class="prefab"
+     id="g2"
+     transform="matrix(3.0616665,0,0,3.0616665,-752.12514,-649.33281)">
+  
+  
+ <path
+   style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none"
+   d="m 499.74002,258.12024 -100.44363,-58.00029 -0.009,123.99225 50.22555,28.99773 v 7.99548 l -50.22555,-29.22514 -0.14161,57.91369 100.59454,58.30569 V 324.11326 l -50.22738,-28.99879 v -7.99756 l 50.22738,28.99879 z"
+   id="path3" /><path
+   style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none"
+   d="m 293.45088,258.12024 100.44363,-58.00029 0.009,123.99226 -50.22555,28.99772 v 7.99548 l 50.22555,-29.22514 0.14161,57.91369 -100.59454,58.30569 V 324.11327 l 50.22738,-28.99879 v -7.99757 l -50.22738,28.99879 z"
+   id="path5" /><path
+   id="path8"
+   style="display:none;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none"
+   d="m 396.61552,394.77836 v 53.32129 H 304.2202 Z m 0,0 v 53.32129 h 92.35518 z" /></g><g
+     id="g9"
+     style="display:none"
+     transform="translate(-25.723813,-31.13179)"><text
+       xml:space="preserve"
+       transform="translate(-87.302262,304.37426)"
+       id="text2"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:113.333px;line-height:1.8;font-family:'Space Grotesk';-inkscape-font-specification:'Space Grotesk';text-align:center;letter-spacing:-7.21px;writing-mode:lr-tb;direction:rtl;white-space:pre;shape-inside:url(#rect2);display:inline;fill:#0f172a;fill-opacity:1;stroke:none;stroke-width:2"
+       x="-2.9013565"
+       y="0"><tspan
+         x="247.48828"
+         y="217.58458"
+         id="tspan3"><tspan
+           style="font-weight:bold;-inkscape-font-specification:'Space Grotesk Bold';text-align:end;text-anchor:end"
+           id="tspan1">FORWARDEN</tspan></tspan></text><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:48px;line-height:1.8;font-family:'Space Grotesk';-inkscape-font-specification:'Space Grotesk Bold';text-align:end;writing-mode:lr-tb;direction:rtl;text-anchor:end;display:inline;fill:#0f172a;stroke:none"
+       x="298.92941"
+       y="640.53497"
+       id="text5"
+       transform="translate(25.866256,-61.12131)"><tspan
+         id="tspan5"
+         x="298.92941"
+         y="640.53497">TECHNOLOGY</tspan></text><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:48px;line-height:1.8;font-family:'Space Grotesk';-inkscape-font-specification:'Space Grotesk Bold';text-align:center;writing-mode:lr-tb;direction:rtl;text-anchor:middle;display:none;fill:#0f172a;stroke:none"
+       x="470.41177"
+       y="579.41364"
+       id="text9"><tspan
+         id="tspan9"
+         x="0"
+         y="0">STUDIO</tspan></text></g></g></svg>
